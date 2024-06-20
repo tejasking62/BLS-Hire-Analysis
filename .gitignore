@@ -1,0 +1,15 @@
+
+__pycache__/
+*.pyc
+*.pyo
+
+venv/
+env/
+
+
+bls_api.ipynb
+
+BLS_data.xlsx
+
+BLS_data_image.xlsx
+
