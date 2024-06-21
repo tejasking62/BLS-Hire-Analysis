@@ -28,6 +28,10 @@ This project fetches data from the Bureau of Labor Statistics (BLS) API, process
     python -m venv venv
     source venv/bin/activate
     ```
+3. **Install the required dependencies:**
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -43,13 +47,4 @@ This project fetches data from the Bureau of Labor Statistics (BLS) API, process
 3. **Output:**
     - The script will generate a plot and save it as `my_blt_plot.png`.
     - The data and the plot will be saved to an Excel file named `BLS_data.xlsx`.
-
-## Project Structure
-/your_project
-  |-- your_script.py                     # Main script for fetching, processing, and visualizing BLS data
-  |-- bls_data_visualization.png         # Generated visualization of the BLS data
-  |-- bls_data_with_visualization.xlsx   # Excel file containing the BLS data and the visualization
-  |-- .gitignore                         # Git ignore file to exclude unnecessary files from the repository
-  |-- README.md                          # Project README file with instructions and information
-  |-- requirements.txt                   # List of Python dependencies required for the project
 
