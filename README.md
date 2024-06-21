@@ -46,5 +46,5 @@ This project fetches data from the Bureau of Labor Statistics (BLS) API, process
 
 3. **Output:**
     - The script will generate a plot and save it as `my_blt_plot.png`.
-    - The data and the plot will be saved to an Excel file named `BLS_data.xlsx`.
+    - The dataframe and the plot will be saved to an Excel file named `BLS_data.xlsx`.
 
