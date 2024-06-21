@@ -46,9 +46,10 @@ This project fetches data from the Bureau of Labor Statistics (BLS) API, process
 
 ## Project Structure
 /your_project
-|-- bls_api.py # Main script for fetching, processing, and visualizing BLS data
-|-- my_blt_plot.png # Generated visualization of the BLS data
-|-- BLS_data.xlsx # Excel file containing the BLS data and the visualization
-|-- .gitignore # Git ignore file to exclude unnecessary files from the repository
-|-- README.md # Project README file with instructions and information
-|-- requirements.txt # List of Python dependencies required for the project
+  |-- your_script.py                     # Main script for fetching, processing, and visualizing BLS data
+  |-- bls_data_visualization.png         # Generated visualization of the BLS data
+  |-- bls_data_with_visualization.xlsx   # Excel file containing the BLS data and the visualization
+  |-- .gitignore                         # Git ignore file to exclude unnecessary files from the repository
+  |-- README.md                          # Project README file with instructions and information
+  |-- requirements.txt                   # List of Python dependencies required for the project
+
