@@ -69,17 +69,17 @@ def main():
     data_frame['Generic'] = np.random.uniform(3950, 10000, size=len(data_frame))
 
     # Using seaborn to visualize data
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(10, 7))
     sns.lineplot(data=data_frame, x='YearMonth', y='value', color='blue')
     sns.lineplot(data=data_frame, x='YearMonth', y='Generic', color='red')
-    plt.title(f"Federal Parent Locator Service (FLPS) and Bureau of Labor Statistics (BLS) Comparison \nMonthly New Hire ({min_date} - {max_date}) ")
+    plt.title(f"Federal Parent Locator Service (FLPS) and Bureau of Labor Statistics (BLS) Comparison \nMonthly New Hire ({min_date} - {max_date}) \n\n")
     plt.xlabel('Year')
     plt.ylabel('Thousands of New Hires')
     
     # Creating the legend for both series
     blue_line = mlines.Line2D([], [], color='blue', label='BLS')
     red_line = mlines.Line2D([], [], color='red', label='FLPS')
-    plt.legend(handles=[blue_line, red_line], loc='upper center')
+    plt.legend(handles=[blue_line, red_line], loc='upper center', bbox_to_anchor=(0.5, 1.07), ncol=2)
     
     # Reflecting monthly changes
     year_ticks = pd.date_range(start=f'{start}-01-01', end=f'{end}-12-31', freq='YS')
