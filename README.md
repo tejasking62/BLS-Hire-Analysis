@@ -29,9 +29,9 @@ This project fetches data from the Bureau of Labor Statistics (BLS) API, process
     source venv/bin/activate
     ```
 3. **Install the required dependencies:**
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Usage
 
