@@ -45,4 +45,9 @@ This project fetches data from the Bureau of Labor Statistics (BLS) API, process
     - The data and the plot will be saved to an Excel file named `BLS_data.xlsx`.
 
 ## Project Structure
-
+|-- bls_api.py # Main script for fetching, processing, and visualizing BLS data
+|-- my_blt_plot.png # Generated visualization of the BLS data
+|-- BLS_data.xlsx # Excel file containing the BLS data and the visualization
+|-- .gitignore # Git ignore file to exclude unnecessary files from the repository
+|-- README.md # Project README file with instructions and information
+|-- requirements.txt # List of Python dependencies required for the project
