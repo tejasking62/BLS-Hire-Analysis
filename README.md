@@ -5,7 +5,7 @@ This project fetches data from the Bureau of Labor Statistics (BLS) API, process
 ## Features
 
 - Fetches time series data from the BLS API.
-- Processes and cleans the data.
+- Transforms JSON data into a dataframe using **Pandas**
 - Generates random series data for comparison.
 - Visualizes the data using **Seaborn** and **Matplotlib**.
 - Saves the data and the visualizations to an Excel file with custom formatting.
