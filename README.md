@@ -36,8 +36,8 @@ This project fetches data from the Bureau of Labor Statistics (BLS) API, process
 ## Usage
 
 1. **Configure your API token:**
-    - Open the `bls_api.py` file and replace the value for authorization in the header with your api token.
-    - Choose which range of years to pull data from
+    - Create a public data API account on the BLS website and receive an API token in your email
+    - Open the `bls_api.py` file and replace the value for authorization in the header with your api token as well as the registration key in the data to be sent into a POST request
 
 2. **Run the script:**
     ```bash
